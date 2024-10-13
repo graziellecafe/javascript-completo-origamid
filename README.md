@@ -188,3 +188,51 @@ async function fetchProdutos(url) {
 
 fetchProdutos('https://ranekapi.origamid.dev/json/api/produto');
 ```
+
+### 📌 9. Map, Filter e REduce 
+#### 9.1 Filter
+Métodos para iterarmos entre os valores de arrays 
+```js
+const precos = [
+  "Crédito", 
+  "R$ 200", 
+  "R$ 400", 
+  "Contas a Pagar", 
+  "R$ 300", 
+  "R$ 400", 
+  "Meus dados"
+], 
+```
+
+Retorna uma array nova, que contem os items em que o retorno da função for verdadeiro.
+
+```js
+const precosFiltro = precos.filter(preco => preco.includes("R$")); 
+```
+#### 9.2 Map
+```js
+const precoNumeros = precosFiltro.map(function(preco) {
+  console.log(preco); 
+  return preco.replace("R$ ", ""); 
+})
+```
+
+#### 9.3 Reduce
+```js
+const total = precoNumeros.reduce(function(){ 
+  return 1200; 
+})
+
+console.log(total); 
+```
+
+### 10. Expressões 
+```js
+const grupoA = 100; 
+const grupoB = 200; 
+
+const vencedor = grupoA > grupoB ? "Grupo A ganhou" : "Grupo B ganhou"; 
+
+console.log(vencedor); 
+```
+
