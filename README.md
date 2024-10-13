@@ -1,29 +1,5 @@
-# 👩🏻‍🏫 React Completo: Origamid 
-Repositório para estudos e resolução de exercícios sobre React 
-
-## 📌 React Completo
-Componentes funcionais, Hooks, Ciclo de Vida, Formulários, Propriedades, Router e Mais. 
-
-**Pré Requisitos**: HTML / CSS / Javascript
-
-**Ferramentas**: Visual Studio Code, Node.js, NPM. 
-
-## 📌 Grade do Curso 
-**React Completo**: Ferramentas e Javascript
-
-**React para Iniciantes**: React básico, Vite, JSX, Eventos, Componentes, Propriedades
-
-**React Hooks**: useState, useEffect, useRef, userMemo, useContext, Custom Hooks, Regras
-
-**Formulários**: Input, Select, Radio, Checkbox, useForm, Validação
-
-**CSS**: CSS Import, CSS Modules, Styled Components, Frameworks, Imagens 
-
-**React Router**: Router, Link, useParams, Nested Routes, head
-
-**Mais React**: PropTypes, Lazy e Suspense, Memo, UseReducer, Classes
-
-**Projeto Final**: API, Autenticação JWT, Scroll Infinito, Biblioteca Externa, Build, Loading. 
+# 👩🏻‍🏫 Javascript Completo: Origamid 
+Repositório para estudos e resolução de exercícios sobre Javascript
 
 ## 📚 Tópico 1: Revisão Javascript
 **Conteúdo**: Arrow Function, Destructuring, Rest e Spread, Module (Export, Import), Fetch, Async/Await, Arrays (map, reduce e filter), Expressões.  
